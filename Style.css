@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;9;;&display=swap");
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border_box;
+    font-family:"poppins",sans-serif;
+    font-weight: bold;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-image: url("bb1bd6_d587ed272e8247bea3f3dba575707903~mv2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width:420px;
+    height:380px;
+    color :#fff;
+    border-radius: 10px;
+    padding : 30px 40px;
+    background-color:transparent;
+    border: 2px solid rgma(255,255,255,.2);
+    backdrop-filter:blur(20px);
+    box-shadow:0 0 10px rgba(0,0,0,.2)
+    
+}
+
+.wrapper h1{
+    font-size:36px;
+    text-align:center;
+
+}
+
+.wrapper .input-box{
+    position:relative;
+    width:100%;
+    height:50px;
+    /*background-color: salmon;*/
+    margin:30px 0;
+    
+}
+
+.input-box input{
+     width:95%;
+     height:100%;
+     background: transparent;
+     border:none;
+     outline:none;
+     border:2px solid rgba(255,255,255,0.2);
+     border-radius:40px;
+     font-size: 16px;
+     color: #fff;
+     padding-left:20px;
+}
+
+
+.input-box input::placeholder{
+      color:#fff;
+
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+
+.wrapper .remember_forget {
+    display:flex;
+    justify-content: space-around;
+    font-size:15px;
+    margin:-15px 0 15px;
+}
+
+.remember_forget label input{
+    accent-color:#fff;
+    margin-right:3px;
+    
+    }
+
+ .remember_forget a:hover{
+    text-decoration: underline;
+
+ }   
+
+.wrapper .btn{
+    width:100%;
+    height:45px;
+    background-color: #fff;
+    border-radius:40px;
+    border:none;
+    outline:none;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor:pointer;
+    font-size: 16px;
+    color: #5c5959;
+    font-weight: 600;
+}
+
+.wrapper .register_link{
+    margin:30px 0 20px 0;
+    text-align: center;
+    
+
+}
+
+.register_link p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.register_link a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
